@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(#42d2d1, #a9bfd2, #a9bfd2, #49a2e5, #4f15d6de);
+  margin: 0 0 0 0;
+}
+img {
+  height: 200px;
+  display: block;
+  width: 100%;
+}
+
+.container {
+  margin-top: 180px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 36px;
+  justify-content: space-around;
+  padding: 24px 96px;
+}
+.card {
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.title {
+  display: block;
+  margin-top: 12px;
+  margin-left: 8px;
+  padding: 4px 8px;
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+.tech {
+  background-color: rgba(248, 193, 90, 0.74);
+}
+.food {
+  background-color: rgba(87, 12, 137, 0.566);
+}
+.race {
+  background-color: rgba(193, 64, 64, 0.636);
+}
+.heading {
+  font-size: medium;
+  margin-left: 8px;
+}
+.description {
+  text-align: justify;
+  margin: 0px 8px 0px 8px;
+  font-size: 14px;
+  color: rgba(104, 97, 97, 0.687);
+}
+.author {
+  display: flex;
+  margin-top: 48px;
+  margin-bottom: 0px;
+}
+.avatar {
+  height: 36px;
+  width: 36px;
+}
+.author p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  margin-top: 2px;
+}
+.author-name {
+  font-size: small;
+}
+.posted-time {
+  color: rgba(128, 117, 117, 0.65);
+  font-size: 12px;
+}
